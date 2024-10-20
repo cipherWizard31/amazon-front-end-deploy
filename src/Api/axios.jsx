@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const axiosInstance = axios.create({
-    baseURL:"http://localhost:7777"
+    baseURL:"https://amazon-api-deploy-0i1o.onrender.com"
 })
 
 export {axiosInstance}
